@@ -24,8 +24,8 @@ $buttons = [
     <tr>
         <th>Actions</th>
         <th>Test</th>
-    </tr>
-    <?php foreach($buttons as $button):?>
+        </tr>
+        <?php foreach($buttons as $button):?>
         <tr>
             <td><?= htmlspecialchars($button)?></td>
             <td>
@@ -36,7 +36,7 @@ $buttons = [
                 </form>
             </td>
         </tr>
-    <?php endforeach;?>
+        <?php endforeach;?>
 </table>
 
 <?php
