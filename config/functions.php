@@ -51,7 +51,7 @@ function requirelogin (){
 function requireRole($role){
     requirelogin();
 
-    if($_SESSION['user_role' !==$role]){
+    if($_SESSION['user_role'] !==$role){
         http_response_code(403);
         die('Access denied');
     }
