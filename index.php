@@ -1,6 +1,5 @@
 <?php
 require 'config/config.php';
-require 'config/functions.php';
 
 if(isset ($_SESSION['user_id'])){
     header('Location:'. BASE_URL . '/app/' . $_SESSION['user_role']. '/index.php');
