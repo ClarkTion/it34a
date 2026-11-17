@@ -11,7 +11,7 @@
 
 
     header('Content-Type: text/csv; charset=utf8');
-    header('Content-Disposition: attachment; filename"'. $safeName .'" ');
+    header('Content-Disposition: attachment; filename="'. $safeName .'" ');
     header('Pragma: no-cache');
     header('Expires:0');
 
